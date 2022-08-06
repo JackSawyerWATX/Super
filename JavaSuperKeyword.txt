@@ -1,0 +1,15 @@
+				+-~-~-~-~-~-~-~-~-~-+
+				|==>SUPER Keyword<==|
+				+-~-~-~-~-~-~-~-~-~-+
+
+Another keyword important for constructors is the super keyword, which references the "super", or parent class.
+
+When invoked as a method super(), the parent class constructor will be called. A super() call or a this() call MUST be the first line of any constructor.
+
+If the super() call is not explicitly provided; the compiler will inject it on the first line.
+
+Also, like the this keyword, it can be used in multiple areas in our code. So let us go over those.
+
+1) super() can be used to invoke the immediate parent class 	constructor
+2) super can be used to refer to the immediate parent class so that 	we can invoke one of the parent class's methods.
+3)super can be used to refer to the immediate parent class so that we 	can access one of the parent class's instance variables.
